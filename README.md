@@ -4,7 +4,6 @@
 
 The task was to analyze the district-wide standardized test results, aggregate the data to and showcase obvious trends in school performance using pandas. 
 
-
 ### District Summary
 
 * Created a high level snapshot (in table form) of the district's key metrics, including:
@@ -16,11 +15,12 @@ The task was to analyze the district-wide standardized test results, aggregate t
   * % Passing Math (The percentage of students that passed math.)
   * % Passing Reading (The percentage of students that passed reading.)
   * % Overall Passing (The percentage of students that passed math **and** reading.)
-![display](PyCitySchools/screenshots/district_summary.png) 
+
+![results](PyCitySchools/screenshots/district_summary.png) 
 
 ### School Summary
 
-* Create an overview table that summarizes key metrics about each school, including:
+* Created an overview table that summarizes key metrics about each school, including:
   * School Name
   * School Type
   * Total Students
@@ -31,10 +31,12 @@ The task was to analyze the district-wide standardized test results, aggregate t
   * % Passing Math (The percentage of students that passed math.)
   * % Passing Reading (The percentage of students that passed reading.)
   * % Overall Passing (The percentage of students that passed math **and** reading.)
+
+  ![display](PyCitySchools/screenshots/school_summary.png) 
 
 ### Top Performing Schools (By % Overall Passing)
 
-* Create a table that highlights the top 5 performing schools based on % Overall Passing. Include:
+* Created a table that highlights the top 5 performing schools based on % Overall Passing. Include:
   * School Name
   * School Type
   * Total Students
@@ -46,33 +48,58 @@ The task was to analyze the district-wide standardized test results, aggregate t
   * % Passing Reading (The percentage of students that passed reading.)
   * % Overall Passing (The percentage of students that passed math **and** reading.)
 
+![display](PyCitySchools/screenshots/top_peforming_schools.png)   
+
 ### Bottom Performing Schools (By % Overall Passing)
 
-* Create a table that highlights the bottom 5 performing schools based on % Overall Passing. Include all of the same metrics as above.
+* Created a table that highlights the bottom 5 performing schools based on % Overall Passing. Include all of the same metrics as above.
 
-### Math Scores by Grade\*\*
+![display](PyCitySchools/screenshots/bottom_performing_schools.png) 
 
-* Create a table that lists the average Math Score for students of each grade level (9th, 10th, 11th, 12th) at each school.
+### Math Scores by Grade
+
+* Created a table that lists the average Math Score for students of each grade level (9th, 10th, 11th, 12th) at each school.
+
+![display](PyCitySchools/screenshots/maths_score_by_grade.png) 
 
 ### Reading Scores by Grade
 
-* Create a table that lists the average Reading Score for students of each grade level (9th, 10th, 11th, 12th) at each school.
+* Created a table that lists the average Reading Score for students of each grade level (9th, 10th, 11th, 12th) at each school.
+
+![display](PyCitySchools/screenshots/reading_score_by_grade.png) 
 
 ### Scores by School Spending
 
-* Create a table that breaks down school performances based on average Spending Ranges (Per Student). Use 4 reasonable bins to group school spending. Include in the table each of the following:
+* Created a table that breaks down school performances based on average Spending Ranges (Per Student) using bins to group school spending. Include:
   * Average Math Score
   * Average Reading Score
   * % Passing Math (The percentage of students that passed math.)
   * % Passing Reading (The percentage of students that passed reading.)
   * % Overall Passing (The percentage of students that passed math **and** reading.)
 
+  ![display](PyCitySchools/screenshots/spending_summary.png) 
+
 ### Scores by School Size
 
-* Repeat the above breakdown, but this time group schools based on a reasonable approximation of school size (Small, Medium, Large).
+* Created a table that breaks down school performances using reasonable bins for approximation of school size (Small, Medium, Large). Include:
+  * Average Math Score
+  * Average Reading Score
+  * % Passing Math (The percentage of students that passed math.)
+  * % Passing Reading (The percentage of students that passed reading.)
+  * % Overall Passing (The percentage of students that passed math **and** reading.
+
+![display](PyCitySchools/screenshots/size_summary.png)
 
 ### Scores by School Type
 
-* Repeat the above breakdown, but this time group schools based on school type (Charter vs. District).
+* Repeated the above breakdown, but this time grouped schools based on school type (Charter vs. District).
 
-## two observable trends based on the data.
+![display](PyCitySchools/screenshots/type_summary.png) 
+
+## Observable Trends Based on the Data
+
+* According to data analysis, all top performing schools based on Overall Passing were Charter schools and in comparison, District schools were underperforming as evident in the table for bottom performing schools. Overall Passing rate for Charter schools was above 95% compared to about 73% for District schools.
+
+* Based on school size, smaller sized schools have higher success rates. Larger schools have lower passing. Interestingly, in terms of spending per student, the schools that spend the least had higher performance rates.
+
+* Across the board student achieved higher reading scores than math scores.
